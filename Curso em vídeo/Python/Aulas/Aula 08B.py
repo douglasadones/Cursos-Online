@@ -1,0 +1,6 @@
+from math import sqrt, ceil, floor # (assim, não precisamos usar math. antes de qualquer comando da biblioteca)
+num = int(input('Digite um número: '))
+raiz = sqrt(num)
+print('A raiz quadrada de {} é {:.2f}'.format(num, raiz))
+print('A raiz quadrada de {} é {:.2f}'.format(num, ceil(raiz)))
+print('A raiz quadrada de {} é {:.2f}'.format(num, floor(raiz)))

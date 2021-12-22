@@ -1,0 +1,17 @@
+# Crie um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada
+n = int(input('Escreva um número inteiro qualquer: '))
+print('A tabuada de {} é:'.format(n))
+# print('{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}'.format(n*1, n*2, n*3, n*4, n*5, n*6, n*7, n*8, n*9, n*10))
+print('_'*12)
+print('{} x {:>2} = {}'.format(n, 1, n))
+print('{} x {:>2} = {}'.format(n, 2, 2*n))
+print('{} x {:>2} = {}'.format(n, 3, 3*n))
+print('{} x {:>2} = {}'.format(n, 4, 4*n))
+print('{} x {:>2} = {}'.format(n, 5, 5*n))
+print('{} x {:>2} = {}'.format(n, 6, 6*n))
+print('{} x {:>2} = {}'.format(n, 7, 7*n))
+print('{} x {:>2} = {}'.format(n, 8, 8*n))
+print('{} x {:>2} = {}'.format(n, 9, 9*n))
+print('{} x {:>2} = {}'.format(n, 10, 10*n))
+print('_'*12)
+# eu poderia por , end=', ' no final de cada print (com exeção do último) para que a impressão ficasse em uma única linha.

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="i"> <!-- o type = "" pode ser 1 A a I i -->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li> <!-- o </li> é opcional dps do HTML5 -->
+        <li>Escovar os Dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas Não Ordenadas</h2>
+    <ul type="circle"> <!-- o type = "" pode ser "disc", "circle" e "square"-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Juntando listas</h2>
+    <h3>Minhas linguagens favoritas</h3>
+    <p>Obs: Linguagens estudadas pelo Gustavo Guanabara do Curso em Video</p>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h3>Meus jogos favoritos</h3> <!-- Relaxa que tá tudo bem :D -->
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li> 
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>Playstation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h3>Lista de Definições</h3> <!-- É tipo um dicionário (Termo + definição) -->
+    <dl>
+        <dt>HTML</dt> <!-- Termo -->
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd> <!-- Descrição -->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>

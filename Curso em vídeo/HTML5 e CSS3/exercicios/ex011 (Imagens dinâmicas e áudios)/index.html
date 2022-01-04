@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+   <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture> 
+
+    <h1>Reproduzindo Áudio</h1>
+    <audio src="midia/floatinghome-brianbolger.mp3" autoplay controls></audio>
+    <!--compatibilidade: MP3 WAV OGG (tenta evitar o WAV pq ele é pesado.)-->
+
+    <!-- outra maneira de por áudio abaixo -->
+    <!-- preload: auto: carrega todo o arquivo antes de reproduzir, metadata: Mostra algumas informações (duração e etc..) antes mesmo do usuário clicar no play e none: não carrega nada até o usuário apertar o play.-->
+    <audio preload="metadata" controls loop>
+        <source src="midia/firstdream-brianbolger.mp3" type="audio/mpeg">
+        <source src="midia/firstdream-brianbolger.ogg" type="audio/ogg">
+        <source src="midia/firstdream-brianbolger.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue reproduzir o áudio. <a href="midia/firstdream-brianbolger.mp3">Clique aqui para baixar o arquivo em MP3</a></p>
+        <!-- Essa mensagem <p></p> só será mostrada se o navegador não conseguir reproduzir nenhum dos formatos acima. -->
+    </audio>
+</body>
+</html>

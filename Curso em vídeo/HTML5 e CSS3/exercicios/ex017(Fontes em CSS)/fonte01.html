@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            
+            font-family: Arial, Helvetica, sans-serif;
+
+        /* 
+        Medidas Absolutas
+        cm, mm, in(polegadas), px(RECOMENDADO), pt(ponto)(medida usada no word), pc(paica)
+
+
+        Medidas Relativas
+        em(RECOMENDADO)(altura do "m" maiúsculo), ex(altura do "x"), rem(altura relativa do m no root), vw(view port), vh, %
+
+        16px geralmente = 1em
+        */
+        font-size: 1em;
+        }
+
+        h1 {
+            /*
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+
+            Usando a shorthand font
+            ordem: font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'Times New Roman', Times, serif;
+        }
+    
+        h2 {
+            font: bold 2em 'Courier New';
+        }
+    </style> 
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi commodi ut dolorum, aut quos laborum obcaecati facilis expedita vel a architecto earum cumque tenetur, facere doloremque iusto sapiente, quam nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nisi ipsum laborum tenetur fugiat eos cumque, asperiores facere vero, illum vel rerum quis magni velit nihil iste distinctio fugit ipsa.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus adipisci animi eum, aut quos amet aliquam explicabo quisquam, ducimus magnam placeat modi sequi labore possimus sint voluptatum. Unde, quasi voluptas.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A exercitationem itaque pariatur voluptatem voluptatum quas saepe id distinctio accusantium illum similique eos vero quo provident, quisquam assumenda molestias obcaecati cupiditate!</p>
+</body>
+</html>

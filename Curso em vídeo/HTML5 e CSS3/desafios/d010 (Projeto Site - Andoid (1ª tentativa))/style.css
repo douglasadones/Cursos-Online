@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E8E5C2;
+    margin: auto;
+}
+
+nav {
+    display: inline;
+}
+
+nav > a {
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.342);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav:hover > a {
+    display: inline;
+    background-color: #043D1D;
+    background-image: linear-gradient(#2baf66 , #043D1D 50%);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+    border-radius: 10px 10px 0px 0px;
+}
+
+header {
+    background-image: linear-gradient(#2baf66, #198b4c, #043D1D 90%);
+    height: 140px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+    margin-top: -13px;
+    padding-top: 30px;
+}
+
+.strong {
+    color: #278853;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.322);
+}
+
+header > h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-top: 10px;
+    color: #d4e0d9;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+}
+
+header > p {
+    color: #d4e6db;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 10px 15px;
+    width: 800px;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.26);
+}
+
+main > h2 {
+    margin: 0px;
+    color: #06582a;
+    font-family: 'Android','Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+picture {
+    text-align: justify;
+}
+
+nav {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: 'Android','Times New Roman', Times, serif;
+    color: #1a683d;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+    background-image: linear-gradient(90deg, #42e78da9, #69b98e00 90%);
+}
+
+div#lista1 {
+    display: inline-block;
+    margin-right: 200px;
+}
+
+div#lista2 {
+    display: inline-block;
+}
+
+li::before {
+    content: '✔ ';
+}
+
+section#final {
+    background-color: #b3e9ccf1;
+    width: 780px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.26);
+}
+
+section#final > h3 {
+    color: white;
+    background-color: #043D1D;
+    padding: 10px 10px 10px 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer#final {
+    background-color: #043D1D;
+    height: 30px;
+}
+
+footer#final > p {
+    color: #d7f8e6a9;
+    text-align: center;
+    padding: 8px;
+    margin: 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+    font-style: italic;
+}
+
+strong {
+    color: rgba(255, 255, 255, 0.897);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+}
